@@ -1,0 +1,279 @@
+@font-face {
+    font-family: General Sans;
+    src: url(./GeneralSans-Medium.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+#circle {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 999;
+    border-radius: 50%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.75s;
+}
+
+#main {
+    width: 100vw;
+}
+
+#landing {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+}
+
+#navbar {
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar h1 {
+    font-size: 2vh;
+}
+
+#navbar h4 {
+    text-transform: uppercase;
+    font-size: 1.5vh;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2vh;
+}
+
+#heading {
+    line-height: 1;
+    text-transform: uppercase;
+    margin-top: 6vh;
+    margin-left: 4vw;
+}
+
+#heading h1 {
+    font-size: 12vw;
+    opacity: 0.6;
+}
+
+.boundary {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.boundary .boundelem {
+    transform: translateY(100%);
+}
+
+.Volunteer {
+    margin-left: 10vw;
+}
+
+#block {
+    width: fit-content;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+
+#block h5 {
+    text-align: right;
+    font-size: 2vh;
+}
+
+#links {
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+
+#links h5 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vh;
+    margin-right: 3vw;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 10px;
+}
+
+#links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.underline {
+    text-transform: none;
+    font-weight: 600;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 2vh;
+    padding: 0 3vw;
+    width: 100%;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer #iconset {
+    display: flex;
+    gap: 5px;
+}
+
+#footer .circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: black;
+    background-color: #fff;
+    opacity: 0.6;
+}
+
+#page1 .elem {
+    position: relative;
+    width: 100%;
+    padding: 6vh 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#page1 .elem h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14vh;
+    z-index: 0;
+}
+
+#page1 .last {
+    border-bottom: 1px solid #888;
+}
+
+#page1 .elem img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#page1 h5{
+    margin-right: 50px;
+}
+
+#page2 {
+    margin-top: 100px;
+    width: 100%;
+    padding: 10vw 5vw;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 35vw;
+}
+
+#page2 h5 {
+    text-transform: uppercase;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+#page2 #abouttext {
+    width: 25rem;
+}
+
+#page2 p {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+#page2 img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+#page2 a {
+    color: #fff;
+    text-decoration: none;
+    width: 20px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+#page2 a:hover {
+    text-decoration: underline;
+}
+
+#main-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-left {
+    color: #fff;
+    display: flex;
+    gap: 30px;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+}
+
+#footer-right {
+    display: flex;
+    gap: 100px;
+    margin-right: 30px;
+}
+
+#footer-right a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer-right a:hover {
+    text-decoration: underline;
+}
